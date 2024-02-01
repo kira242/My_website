@@ -1,0 +1,220 @@
+ body {
+  
+ background-image:url('resourse/photo-1480506132288-68f7705954bd.avif');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+
+.nav-main{
+    float:left;
+    list-style:none;
+    margin-top:20px;
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    .nav-main li{
+        display:inline-block;
+     
+    }
+    .nav-main li a{
+        color:white;
+    text-decoration:none;
+    padding:5px  20px;
+    font-family:"roboto",Sans-serif;
+    font-size:16px;
+    
+    
+    }
+    .nav-main li  a
+    {
+        border: 2px solid white;
+        background-color:black
+    }
+    .nav-main li a:hover{
+        background-color:burlywood;
+        /*this is the buttoms background color */
+        
+    }
+    .nav-main li :hover{
+        background-color: rgba(0, 0, 0, 0);
+       
+    }
+    .nav-main li a:hover
+    {
+        border:2px solid red;
+        
+        
+    }
+
+    #reviews{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+     justify-content: space-between;
+     margin-top: 10px;
+    }
+    
+    #comments-container {
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        width: 40%;
+        margin-bottom: 10px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    #review-box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-top: 10px;
+        width: 50%;
+        box-sizing: border-box;
+        min-height: 100px;
+        background-color: #FFFFFF;
+    }
+
+ .Persona5{
+    background-image: url(resourse/digitalfoundry-2017-persona-5-ps3-vs-ps4-face-off-1492771676038.webp);
+}
+
+.p_summary{
+    background-color: rgba(0, 0, 0, 0.5); /* Background Overlay */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    margin-left: 20%;
+    width: fit-content;
+    margin-right: 20%;
+    display: flex;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+
+}
+
+.p_summary p{
+    color: #FFFFFF;
+}
+
+
+ .godofwar {
+    background-image: url(resourse/god-of-war-ragnarok2-performance-analysis_j74x.1200.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.g_summary{
+    background-color: rgba(0, 0, 0, 0.6); /* Background Overlay */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #CCCCCC;
+    
+    accent-color: #800000 ;
+  font-weight: bold;
+  margin-left: 20%;
+  width: fit-content;
+  margin-right: 20%;
+  display: flex;
+  padding: 0px 10px;
+  margin-bottom: 15px;
+
+}
+
+.GravityRush2{
+    background-image: url(resourse/digitalfoundry-2017-gravity-rush-2-tech-analysis-1484647200656.webp);
+}
+.garsumary{
+  
+
+    background-color: rgba(255, 255, 255, 0.7); /* Background Overlay */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: 20%;
+  width: fit-content;
+  margin-right: 20%;
+  display: flex;
+  padding: 0px 10px;
+  margin-bottom: 15px;
+}
+
+.horizonzerodawn  
+{
+    background-image: url(resourse/horizonzerodawn.webp);
+    
+}
+
+.h_summary{
+    background-color: rgba(0, 0, 0, 0.4); /* Background Overlay */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #D2B48C;
+    margin-left: 20%;
+    width: fit-content;
+    margin-right: 20%;
+    display: flex;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
+
+
+.video{
+display: flex;
+justify-content: center;
+}
+
+
+iframe{
+  
+    display: flex;
+    justify-content: center;
+    width: "965";
+    
+
+}
+
+form
+{
+text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+
+

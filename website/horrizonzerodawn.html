@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./gamesite.css">
+    </head>
+    <body class="horizonzerodawn">
+        <header>
+            <nav>
+                <ul class="nav-main">
+                    <li><a href="home_page.html">Home Page</a></li>
+                     <li><a href="persona_5.html">persona 5 </a></li>
+                     <li><a href="gravityrush2.html">gravity rush 2</a></li>
+                     <li><a href="godofwar.html">god of war</a></li>
+                     <li><a href="horrizonzerodawn.html">horizon zero dawn</a></li>
+                     <li><a href="contact.html">contact page</a></li>
+                    </ul>
+            </nav>
+         </header>
+         <H1> Horizon zero Dawn</H1>
+         <div class="h_summary">
+            <p>
+                Horizon Zero Dawn is an action role-playing game set in a post-apocalyptic world where robotic creatures roam the land.
+                 Players control Aloy, a skilled hunter and archer, as she explores the vast and visually stunning open world. 
+                 The narrative follows Aloy's quest to uncover the mysteries of her past and the truth behind the robotic creatures. 
+                 The game gradually reveals the story of a technologically advanced civilization that fell, giving rise to the robotic 
+                 creatures and tribal societies. Aloy's journey involves unraveling ancient secrets, battling robotic foes, and interacting 
+                 with diverse factions in a visually captivating and ecologically diverse landscape. Horizon Zero Dawn received critical acclaim 
+                 for its engaging storyline, breathtaking visuals, and a well-realized open world.
+            </p>
+         </div>
+         <div class="video">
+            <iframe width="965" height="480" src="https://www.youtube.com/embed/u4-FCsiF5x4" title="Horizon Zero Dawn - E3 2016 Trailer I PS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
+         <h3>Leave a review</h3>   
+         <div id ='reviews'>
+
+            <textarea id="user-input" placeholder="Type your review here..."></textarea>
+            <button id="submit-btn">Submit</button>
+            <div id="review-box"></div>
+        
+            <script>
+                document.getElementById('submit-btn').addEventListener('click', function() {
+                    var userInput = document.getElementById('user-input').value;
+                    displayReview(userInput);
+                });
+        
+                function displayReview(review) {
+                    var reviewBox = document.getElementById('review-box');
+                    reviewBox.innerHTML = `<p>${review}</p>`;
+                }
+            </script>
+               
+            
+        </div>
+   
+        
+    </body>
+   
+
+</html>

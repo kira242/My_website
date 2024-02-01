@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./gamesite.css">
+    </head>
+    <body class="godofwar">
+        <header>
+            <nav>
+                <ul class="nav-main">
+                    <li><a href="home_page.html">Home Page</a></li>
+                     <li><a href="persona_5.html">Persona 5 </a></li>
+                     <li><a href="gravityrush2.html">gravity rush 2</a></li>
+                     <li><a href="godofwar.html">God of war</a></li>
+                     <li><a href="horrizonzerodawn.html">Horizon zero dawn</a></li>
+                     <li><a href="contact.html">Contact page</a></li>
+                    </ul>
+            </nav>
+         </header>
+         <H1>God of war </H1>
+<div class="g_summary">
+    <p>
+        
+The God of War series revolves around Kratos, a Spartan warrior seeking revenge against the gods of Olympus.
+ In the original trilogy, Kratos rises to power, but his thirst for vengeance leads to destructive consequences. 
+ After the events of the original trilogy, the 2018 installment, also titled "God of War," shifts its focus to Norse mythology.
+ Kratos, now living in Midgard, attempts to start anew and build a relationship with his son, Atreus. The duo embarks on a journey 
+ to fulfill the last wishes of Kratos' deceased wife by scattering her ashes from the highest peak in the Nine Realms. The game
+combines brutal combat, puzzle-solving, and a compelling narrative, exploring themes of fatherhood, redemption, and the consequences
+ of one's past actions. The 2018 God of War installment received widespread acclaim for its storytelling, gameplay mechanics, and a 
+ more mature and nuanced portrayal of its protagonist.
+    </p>
+</div>
+
+<div class="video">
+    <iframe width="965" height="480" src="https://www.youtube.com/embed/K0u_kAWLJOA" title="God of War – Story Trailer | PS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<h3>Leave a review</h3> 
+<div id ='reviews'>
+
+    <textarea id="user-input" placeholder="Type your review here..."></textarea>
+    <button id="submit-btn">Submit</button>
+    <div id="review-box"></div>
+
+    <script>
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            var userInput = document.getElementById('user-input').value;
+            displayReview(userInput);
+        });
+
+        function displayReview(review) {
+            var reviewBox = document.getElementById('review-box');
+            reviewBox.innerHTML = `<p>${review}</p>`;
+        }
+    </script>
+       
+    
+</div>
+
+    </body>
+</html>

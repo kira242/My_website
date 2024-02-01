@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./gamesite.css">
+    </head>
+    
+    <header>
+        <nav>
+            <ul class="nav-main">
+                <li><a href="home_page.html">Home Page</a></li>
+                 <li><a href="persona_5.html">persona 5 </a></li>
+                 <li><a href="gravityrush2.html">gravity rush 2</a></li>
+                 <li><a href="godofwar.html">god of war</a></li>
+                 <li><a href="horrizonzerodawn.html">horizon zero dawn</a></li>
+                 <li><a href="contact.html">contact page</a></li>
+                </ul>
+        </nav>
+     </header>
+    <body class="Persona5">
+        <p>&nbsp;</p>
+        <H1>Persona 5</H1>
+         <div class="p_summary">
+          
+            <p width ="700">
+                Persona 5 is a Japanese role-playing game (JRPG) that follows the story of a 
+                high school student known by his codename "Joker." The protagonist is falsely accused of assault and is transferred to Shujin Academy in Tokyo as part of his probation. As Joker, 
+                 players navigate both the student life and an alternate supernatural dimension known as the Metaverse. In the Metaverse, Joker 
+                 and his friends, who are known as the Phantom Thieves, use their Persona abilities to change the hearts of corrupt individuals 
+                 by entering "Palaces" created from their distorted desires. Throughout the game, players balance school life, forming bonds with 
+                 friends (Confidants), and combating supernatural threats in the Metaverse. The narrative explores themes of rebellion, justice, 
+                 and the impact of one's actions on society. As the story unfolds, the Phantom Thieves uncover a larger conspiracy and face powerful 
+                 adversaries. Persona 5 received acclaim for its stylish presentation, deep characters, engaging story, and the unique blend of social 
+                 simulation and turn-based combat mechanics.
+            </p>
+         </div>
+         <div class="video">
+            <iframe width="965" height="480" src="https://www.youtube.com/embed/QnDzJ9KzuV4" title="Persona 5 | Launch Trailer | PS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
+         <h3>Leave a review</h3> 
+         <div id ='reviews'>
+
+            <textarea id="user-input" placeholder="Type your review here..."></textarea>
+            <button id="submit-btn">Submit</button>
+            <div id="review-box"></div>
+        
+            <script>
+                document.getElementById('submit-btn').addEventListener('click', function() {
+                    var userInput = document.getElementById('user-input').value;
+                    displayReview(userInput);
+                });
+        
+                function displayReview(review) {
+                    var reviewBox = document.getElementById('review-box');
+                    reviewBox.innerHTML = `<p>${review}</p>`;
+                }
+            </script>
+               
+            
+        </div>
+    </body>
+</html>

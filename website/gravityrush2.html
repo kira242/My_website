@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./gamesite.css">
+
+    </head>
+    <body class="GravityRush2">
+        <header>
+            <nav>
+                <ul class="nav-main">
+                    <li><a href="home_page.html">Home Page</a></li>
+                     <li><a href="persona_5.html">persona 5 </a></li>
+                     <li><a href="gravityrush2.html">gravity rush 2</a></li>
+                     <li><a href="godofwar.html">god of war</a></li>
+                     <li><a href="horrizonzerodawn.html">horizon zero dawn</a></li>
+                     <li><a href="contact.html">contact page</a></li>
+                    </ul>
+            </nav>
+         </header>
+         <H1> Gravity Rush 2</H1>
+         <div class="garsumary">
+            <p>Gravity Rush 2 is an action-adventure video game developed by SIE Japan Studio and Project Siren.
+             The game follows the story of Kat, a gravity-shifting heroine, as she explores the floating cities 
+             of Hekseville and Jirga Para Lhao. Kat gains the ability to manipulate gravity, allowing her to fly
+              and walk on walls, as she unravels the mysteries surrounding a gravitational disturbance known as 
+              the "gravity storm." Throughout the game, players encounter various challenges, enemies, and puzzles, 
+              all while uncovering the secrets of Kat's past and the origin of the gravitational anomalies. The game 
+              received praise for its unique gameplay mechanics, art style, and engaging narrative.</p>
+         </div>
+         <div class="video">
+            <iframe width="965" height="480" src="https://www.youtube.com/embed/mPu7GKzqKeM" title="Gravity Rush 2 Official Announce Trailer | PS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
+
+         <h3>Leave a review</h3> 
+<div id ='reviews'>
+
+    <textarea id="user-input" placeholder="Type your review here..."></textarea>
+    <button id="submit-btn">Submit</button>
+    <div id="review-box"></div>
+
+    <script>
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            var userInput = document.getElementById('user-input').value;
+            displayReview(userInput);
+        });
+
+        function displayReview(review) {
+            var reviewBox = document.getElementById('review-box');
+            reviewBox.innerHTML = `<p>${review}</p>`;
+        }
+    </script>
+       
+    
+</div>
+        
+    </body>
+</html>
